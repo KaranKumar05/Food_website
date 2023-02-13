@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lunch Menu</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- OUR CSS -->
+    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/style.css" />
+
+    <!-- Imported Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAV bar -->
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img" alt="Logo-img"></div>
+            </a>
+            <div class="navbar-brand">
+              <a href="index.html">
+                <h1>Alpha Foodies</h1>
+              </a>
+              <p>
+                <span>Halal Food</span>
+              </p>
+            </div>
+
+            <!-- Drop Down list -->
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapsable-nav"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span>
+                  <br class="hidden-xs" />Home
+                </a>
+              </li>
+              <li class="active">
+                <a href="menu-categories.html">
+                  <span class="glyphicon glyphicon-cutlery"></span>
+                  <br class="hidden-xs" />Menu
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-info-sign"></span>
+                  <br class="hidden-xs" />About
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-certificate"></span>
+                  <br class="hidden-xs" />Award
+                </a>
+              </li>
+              <li id="phone" class="hidden-xs">
+                <a href="tel:03000000111">
+                  <span>03000000111</span>
+                </a>
+                <div>*Home Delivery</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Dilivery Button (Visible while small device) -->
+    <div id="call-btn" class="visible-xs">
+      <a href="tel:03000000111" class="btn">
+        <span class="glyphicon glyphicon-earphone"> 03000000111 </span>
+      </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">*We Deliver</div>
+
+    <!-- content -->
+    <div id="main-content" class="container">
+      <h2 id="menu-categories" class="text-center">Lunch Menu</h2>
+      <div id="text" class="text-center">Lunch is not server until 1pm</div>
+
+      <section class="row">
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="menu-item-photo">
+                <div>D01</div>
+                <img class="img-responsive" src="./images/single.jpg" width="250" height="150" />
+              </div>
+              <div class="menu-item-price">
+                $10.45 <span>(print)</span> $14.95 <span>(quart)</span>
+              </div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-tile-title">Veal with Mixed Vegetables</h3>
+              <p class="menu-item-details">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                sed laborum obcaecati maxime reprehenderit temporibus
+                aspernatur, expedita, placeat nobis, consequuntur possimus
+                suscipit pariatur. Voluptatem iusto labore, non eveniet sed
+                totam.
+              </p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="menu-item-photo">
+                <div>D02</div>
+                <img class="img-responsive" src="./images/single.jpg" width="250" height="150" />
+              </div>
+              <div class="menu-item-price">
+                $10.45 <span>(print)</span> $14.95 <span>(quart)</span>
+              </div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-tile-title">Veal with Mixed Vegetables</h3>
+              <p class="menu-item-details">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                sed laborum obcaecati maxime reprehenderit temporibus
+                aspernatur, expedita, placeat nobis, consequuntur possimus
+                suscipit pariatur. Voluptatem iusto labore, non eveniet sed
+                totam.
+              </p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="menu-item-photo">
+                <div>D03</div>
+                <img class="img-responsive" src="./images/single.jpg" width="250" height="150" />
+              </div>
+              <div class="menu-item-price">
+                $10.45 <span>(print)</span> $14.95 <span>(quart)</span>
+              </div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-tile-title">Veal with Mixed Vegetables</h3>
+              <p class="menu-item-details">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                sed laborum obcaecati maxime reprehenderit temporibus
+                aspernatur, expedita, placeat nobis, consequuntur possimus
+                suscipit pariatur. Voluptatem iusto labore, non eveniet sed
+                totam.
+              </p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="menu-item-photo">
+                <div>D04</div>
+                <img class="img-responsive" src="./images/single.jpg" width="250" height="150" />
+              </div>
+              <div class="menu-item-price">
+                $10.45 <span>(print)</span> $14.95 <span>(quart)</span>
+              </div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-tile-title">Veal with Mixed Vegetables</h3>
+              <p class="menu-item-details">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                sed laborum obcaecati maxime reprehenderit temporibus
+                aspernatur, expedita, placeat nobis, consequuntur possimus
+                suscipit pariatur. Voluptatem iusto labore, non eveniet sed
+                totam.
+              </p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="menu-item-photo">
+                <div>D05</div>
+                <img class="img-responsive" src="./images/single.jpg" width="250" height="150" />
+              </div>
+              <div class="menu-item-price">
+                $10.45 <span>(print)</span> $14.95 <span>(quart)</span>
+              </div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-tile-title">Veal with Mixed Vegetables</h3>
+              <p class="menu-item-details">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                sed laborum obcaecati maxime reprehenderit temporibus
+                aspernatur, expedita, placeat nobis, consequuntur possimus
+                suscipit pariatur. Voluptatem iusto labore, non eveniet sed
+                totam.
+              </p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="menu-item-photo">
+                <div>D06</div>
+                <img class="img-responsive" src="./images/single.jpg" width="250" height="150" />
+              </div>
+              <div class="menu-item-price">
+                $10.45 <span>(print)</span> $14.95 <span>(quart)</span>
+              </div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-tile-title">Veal with Mixed Vegetables</h3>
+              <p class="menu-item-details">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                sed laborum obcaecati maxime reprehenderit temporibus
+                aspernatur, expedita, placeat nobis, consequuntur possimus
+                suscipit pariatur. Voluptatem iusto labore, non eveniet sed
+                totam.
+              </p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+
+
+  
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br />
+            Sun-Thus: 11:15am - 10:00pm <br />
+            Fri:11:45am - 02:30pm <br />
+            Saturday collapsed
+            <hr class="visible-xs" />
+          </section>
+
+          <section id="adress" class="col-sm-4">
+            <span>Adress:</span><br />
+            Habib Universtiy Raod <br />
+            Rado Livina, Flat C524
+            <p>
+              *Delivery area with in 3-4 miles, with minimun order of $20 plus
+              $3 for all Delivery
+            </p>
+            <hr class="visible-xs" />
+          </section>
+
+          <section id="testmonials" class="col-sm-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              quod sunt repudiandae, dolorem quia at dolores voluptatum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              aperiam, odio veritatis natus facere expedita.
+            </p>
+          </section>
+        </div>
+
+        <div class="text-center">&copy; Copyright Alpha Foodies 2023</div>
+      </div>
+    </footer>
+    <script src="./bootstrap-3.3.7-dist/js/jquery-3.6.3.min.js"></script>
+    <script src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="/bootstrap-3.3.7-dist/js/script.js"></script>
+  </body>
+</html>
