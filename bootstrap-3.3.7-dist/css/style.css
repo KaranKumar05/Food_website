@@ -7,7 +7,7 @@ body{
 #header-nav{
     background-color: #f6b319;
     border-radius: 0;
-    border: 0;
+    border: 0px;
 }
 #logo-img{
     background: url('../../images/logo-large.png') no-repeat;
